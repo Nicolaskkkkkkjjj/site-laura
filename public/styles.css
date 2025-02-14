@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 20px;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #d32f2f;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  
+  .yes-button {
+    font-size: 1.2em;
+    padding: 8px 16px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .no-button {
+    font-size: 1.2em;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .local-button {
+    font-size: 1.2em;
+    padding: 8px 16px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .gif_container img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  
+  /* .imagem-esquerda img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    float: none;
+    position: relative;
+    top: 0;
+  }
+
+  .imagem-direita img {
+    max-width: 90%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    float: right;
+    left: 200px;
+    position: relative;
+    top: -450px;
+  } */
